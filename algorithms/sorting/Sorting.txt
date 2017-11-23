@@ -1,0 +1,16 @@
+Sorting Algorithms
+Efficient:
+1. Heap Sort
+2. Merge Sort
+3. Quick Sort
+4. Counting Sort
+5. Bucket Sort for floating point values
+6.
+
+Inefficient:
+1. Bubble Sort
+2. Insertion Sort
+3. 
+4.
+5.
+6.
