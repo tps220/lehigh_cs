@@ -29,6 +29,7 @@ void merge(int *array, int begin, int mid, int end) {
     for (int i = 0; i < k; i++) {
         array[i + begin] = sortedArray[i];
     }
+    delete [] sortedArray;
 }
 
 void merge_sort(int *array, int l, int r) {

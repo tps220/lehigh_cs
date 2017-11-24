@@ -24,7 +24,7 @@ int main(int argc, char** argv) {
             return -1;
         }
     }
-    
+    delete [] array;  
     cout << "Sucess" << endl;
     cout << "Time: " << (time2 - time) / (double)CLOCKS_PER_SEC << endl;
     return 0;
