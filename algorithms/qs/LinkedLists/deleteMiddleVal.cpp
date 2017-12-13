@@ -1,6 +1,6 @@
-//Delete a node in the middle of a singly linked list
+//Question: Delete a node in the middle of a singly linked list
 
-//Copy the next node's value into the current,
+//Solution: Copy the next node's value into the current,
 //and destroy the last node
 void deleteMiddleVal(LinkedListNode node) {
     //If we are at the tail, we are not a middle value.

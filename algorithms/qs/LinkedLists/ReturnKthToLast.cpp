@@ -1,6 +1,5 @@
-//Implement a method to find the kth to last element
+//Question: Implement a method to find the kth to last element
 //of a linked list
-//
 
 
 //Iteratively

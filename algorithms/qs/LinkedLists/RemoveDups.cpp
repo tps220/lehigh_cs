@@ -8,7 +8,7 @@ void removeDups(Node *&root) {
     if (root == NULL) {
         return;
     }
-    map<int> buffer;
+    unordered_set<int> buffer;
     buffer.insert(root -> data);
     while (root -> next != NULL) {
         if (buffer.get(root -> next -> data) != buffer.end()) {
@@ -26,12 +26,14 @@ void removeDups(Node *&root) {
 //If we can't use a buffer, sort the linked list
 //or use a runner to go from current position to onwards
 void removeDups(Node*& root) {
-    //Helper function that implements
-    //merge sort with linked lists
     if (root == NULL) {
         return;
     }
+    
+    //Helper function that implements
+    //merge sort with linked lists
     sort(root);
+    
     while (root -> next != NULL) {
         if (buffer -> next -> data == buffer -> data) {
             Node* temp = root -> next;

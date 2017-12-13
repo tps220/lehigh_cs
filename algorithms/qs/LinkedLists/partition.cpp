@@ -1,11 +1,13 @@
-Partition the linked list so that all the values
-less than a key is before all the values that are bigger
+//Question: Partition the linked list so that all the values
+//less than a key is before all the values that are bigger
 
+
+//Implement a method similar to quicksort
 void partition(LinkedListNode* node, int val) {
     if (node == NULL) {
         return false;
     }
-    //Search for element to make sure it's in the list, if that's
+    //Search for partition element to make sure it's in the list, if that's
     //a necessary requirement
     LinkedListNode* runner = node;
     while (runner -> next != NULL && runner -> next -> data != val) {
@@ -26,7 +28,6 @@ void partition(LinkedListNode* node, int val) {
         }
         root = root -> next;
     }
-
 }
 
 //Or, simply use the pointers two create two lists, one less than
