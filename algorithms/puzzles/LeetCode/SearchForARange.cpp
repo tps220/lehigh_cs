@@ -10,17 +10,12 @@ class Solution {
 public:
     vector<int> searchRange(vector<int> &nums, int target) {
         if (nums.size() == 0) {
-            return vector<int>(-1, 2);
+            return vector<int>(2, -1);
         }
         int lower_bound = binarySearch(nums, target - 0.5, false);
         int higher_bound = binarySearch(nums, target + 0.5, true);
-        if (lower_bound == higher_bound) {
-            if (nums[lower_bound] != target) { 
-                return vector<int>(-1, 2);
-            }
-            else {
-                return vector<int>(lower_bound, 2);
-            }
+        if (lower_bound == nums.size() || nums[lower_bound] != target) {
+            return vector<int>(2, -1);
         }
         vector<int> retval;
         retval.push_back(lower_bound);
