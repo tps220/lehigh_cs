@@ -1,0 +1,369 @@
+#page1 {
+  background-image: url("bg.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  text-align: right;
+  min-height: 500px;
+}
+#page2 {
+  background-image: url("images/bg3.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 110vh;
+  width: 100%;
+  min-height: 800px;
+}
+#page3 {
+  background-image: url("images/bg2.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  min-height: 500px;
+}
+#page-title {
+  text-align: left;
+  margin-top: 20vh;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 9vw;
+  padding-bottom: 6px;
+  padding-top: 6px;
+
+}
+
+
+#playing-board {
+  border: 1px;
+}
+
+#scroll-to-play:hover {
+  -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+        color: #49497B;
+}
+.glyphicon {
+    font-size: 4vw;
+}
+
+#scroll-to-play:before {
+  -webkit-transition:0.5s all ease;
+  transition:0.5s all ease;
+  position:absolute;
+  top:0;
+  left:50%;
+  right:50%;
+  bottom:0;
+  opacity:0;
+  content:'';
+  background-color:white;
+  z-index:-2;
+}
+#scroll-to-play:hover:before {
+  -webkit-transition:0.5s all ease;
+  transition:0.5s all ease;
+  left:0;
+  right:0;
+  opacity:1;
+}
+#scroll-to-play:focus {
+  outline:0 !important;
+}
+#scroll-to-play:focus:before {
+  transition:0.5s all ease;
+  left:0;
+  right:0;
+  opacity:1;
+}
+
+#scroll-to-play {
+  color: white;
+  margin-top: 30vh;
+  margin-right: 6vw;
+  text-decoration:none;
+  -webkit-transition:0.3s all ease;
+  transition:0.3s ease all;
+  font-size:18px;
+  letter-spacing:2px;
+  text-transform: uppercase;
+  display: inline-block;
+  text-align: center;
+  width: 28vw;
+  font-weight:bold;
+  border-radius: 2px;
+  position: relative;
+}
+
+.play-game-text {
+  font-size: 3vw;
+}
+
+#category {
+  width: 180px;
+  margin: 0 auto;
+  font-size: 18px;
+}
+#play-game-title {
+  text-align: center;
+  font-size: 64px;
+  margin-top: 10px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid black;
+}
+#new-game-form {
+  text-align: center;
+  margin-left: 15px;
+  width: 340px;
+  margin: 0 auto;
+}
+#category-select-header {
+  font-size: 36px;
+}
+#start-game-button {
+  margin-top: 10px;
+  font-size: 28px;
+}
+#board {
+  width: 36vw;
+  height: 36vw;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+.tiles {
+  width: 9vw;
+  height: 9vw;
+  border: 1px solid white;
+  border-radius: 2px;
+  background-color: white;
+}
+.images {
+  width: 9vw;
+  height: 9vw;
+  border-radius: 2px;
+}
+
+
+#restart-button:hover {
+  -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+        color: white;
+}
+
+#restart-button:before {
+  -webkit-transition:0.5s all ease;
+  transition:0.5s all ease;
+  position:absolute;
+  top:0;
+  left:50%;
+  right:50%;
+  bottom:0;
+  opacity:0;
+  content:'';
+  background-color:#49497B;
+  z-index:-2;
+}
+#restart-button:hover:before {
+  -webkit-transition:0.5s all ease;
+  transition:0.5s all ease;
+  left:0;
+  right:0;
+  opacity:1;
+}
+#restart-button:focus {
+  outline:0 !important;
+}
+#restart-button:focus:before {
+  transition:0.5s all ease;
+  left:0;
+  right:0;
+  opacity:1;
+}
+#restart {
+  text-align: center;
+  margin: 0 auto;
+}
+#restart-button {
+  color: #49497B;
+  text-decoration:none;
+  -webkit-transition:0.3s all ease;
+  transition:0.3s ease all;
+  letter-spacing:2px;
+  text-transform: uppercase;
+  display: inline-block;
+  text-align: center;
+  width: 28vw;
+  font-weight:bold;
+  border-radius: 2px;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+
+#leaderboard-link:hover {
+  -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+        color: white;
+}
+
+#leaderboard-link:before {
+  -webkit-transition:0.5s all ease;
+  transition:0.5s all ease;
+  position:absolute;
+  top:0;
+  left:50%;
+  right:50%;
+  bottom:0;
+  opacity:0;
+  content:'';
+  background-color:#49497B;
+  z-index:-2;
+}
+#leaderboard-link:hover:before {
+  -webkit-transition:0.5s all ease;
+  transition:0.5s all ease;
+  left:0;
+  right:0;
+  opacity:1;
+}
+#leaderboard-link:focus {
+  outline:0 !important;
+}
+#leaderboard-link:focus:before {
+  transition:0.5s all ease;
+  left:0;
+  right:0;
+  opacity:1;
+}
+
+#leaderboard-link {
+  color: #49497B;
+  text-decoration:none;
+  -webkit-transition:0.3s all ease;
+  transition:0.3s ease all;
+  letter-spacing:2px;
+  text-transform: uppercase;
+  display: inline-block;
+  width: 78.6%;
+  font-weight:bold;
+  border-radius: 2px;
+  text-align: center;
+  position: relative;
+  margin: 0 auto;
+  margin-top: -300px;
+}
+#leaderboard-text {
+  font-size: 12px;
+}
+#leaderboard-link-container {
+  text-align: center;
+  margin: 0 auto;
+}
+#leaderboard-title {
+  color: white;
+  text-align: center;
+  font-size: 64px;
+  margin-top: 10px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid white;
+}
+
+
+#top10 {
+  font-size: 6vw;
+}
+
+#sort-button1 {
+  margin-top: 20px;
+  font-size: 12px;
+}
+#sort-button2 {
+  margin-top: 20px;
+  margin-left: 5px;
+  font-size: 12px;
+}
+#sort-button3 {
+  margin-top: 20px;
+  margin-left: 5px;
+  font-size: 12px;
+}
+
+#winning-message {
+  font-size: 2vw;
+  text-align: center;
+  background-color: #49497B;
+  color: white;
+}
+
+
+
+@media screen and (max-width: 600px) {
+  #page-title {
+    font-size: 7vw;
+  }
+  #scroll-to-play {
+    margin-right: 2vw;
+  }
+  #play-game-title {
+    text-align: center;
+    font-size: 10vw;
+    margin-top: 10px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid black;
+  }
+  #category-select-header {
+    font-size: 6vw;
+  }
+  #board {
+    width: 64vw;
+    height: 64vw;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+  .tiles {
+    width: 16vw;
+    height: 16vw;
+    border: 1px solid white;
+    border-radius: 2px;
+    background-color: white;
+  }
+  .images {
+    width: 16vw;
+    height: 16vw;
+    border-radius: 2px;
+  }
+  #leaderboard-title {
+    color: white;
+    text-align: center;
+    font-size: 10vw;
+    margin-top: 10px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid white;
+  }
+  #top10 {
+    font-size: 8vw;
+  }
+}
+
+@media screen and (max-height: 1200px) and (min-width: 2500px) {
+  #page1 {
+    min-height: 1200px;
+  }
+  #page2 {
+    min-height: 1200px;
+  }
+  #page3 {
+    min-height: 1200px;
+  }
+}

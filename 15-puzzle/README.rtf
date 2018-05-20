@@ -1,0 +1,81 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1561\cocoasubrtf100
+{\fonttbl\f0\froman\fcharset0 TimesNewRomanPSMT;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww11660\viewh16340\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs96 \cf0 \ul \ulc0 README\ulnone \
+
+\i\b\fs36 Thomas Salemy\
+Web Systems Programming\
+Final Project: 15 Puzzle with Images
+\i0\b0\fs24 \
+\
+
+\fs36 \ul Description
+\fs24 \ulnone \
+
+\fs28 My final project implements the 15-puzzle game, where the user needs to rearrange blocks so that the order of elements in the square goes from 1-15 and an empty block in the bottom-right. This game can either be represented using numbers or an image; in my case, I decided to use an image as I thought it would be much more fun.
+\fs24 \
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\fs36 \cf0 \ul \ulc0 Technologies Used
+\fs24 \ulnone \
+
+\fs28 Bootstrap\
+\'96\'96Allowed me to resize the web-app dynamically based upon the size of the web-browser, from mobile phones to large desktops. Also allowed me to create a clean, minimalist design with the various number of features they provide from beautiful tables to awesome glyphicons.\
+\
+jQuery, Javascript, HTML, CSS\
+
+\fs24 \
+
+\fs36 \ul Rules
+\fs24 \ulnone \
+
+\fs28 The goal of the game is to rearrange the image back into its original form. In order to play the game, one must click on an image adjacent to the empty box. This will move that block into the empty box. The user will continue this process until the game is won. The number of tries and time it takes to complete the game is dynamically stored for each attempt. If the user clicks a box not adjacent to the empty box, no action will be performed.\
+
+\fs24 \
+
+\fs28 Once the user has won, they will be notified in the bottom-right corner of the board and the board will remain frozen until they restart. The leaderboard will be updated accordingly.
+\fs24 \
+\
+\
+\
+\
+\
+\
+\
+
+\fs36 \ul Testing a Win\ulnone \
+
+\fs28 If you want to test what happens when you win, follow these sequences of moves:\
+click the square to the ____ of the empty box in the following order\'85.\
+left \
+left\
+bottom\
+bottom\
+bottom\
+right\
+right\
+
+\fs24 \
+
+\fs36 \ul Aspects of the Web App\ulnone \
+1. Title Page
+\fs24 \
+
+\fs28 \'96\'96The title page implements a number of CSS effects, such as the parallax effect, hovering over text and adding animations, and resizing text based upon the viewport. I believed the title page needed to have a clean, minimalist look while also having an interactive effect. 
+\fs24 \
+
+\fs36 2. Game Center Section
+\fs24 \
+
+\fs28 \'96\'96This section consists of a number of parts. First, the user must select a category to play the 15-puzzle game with. In the drop-down input menu, the user selects from 5 categories that represent different images. When the user selects start game, this box disappears and the game and restart buttons appears. The rules of the game are described above. The restart button makes the \'93new game form\'94 appear again, and the user can either select the same game if they get frustrated with their previous attempt or a different domain. The rest of the elements in this section are self-explanatory. When the user wins, the leaderboard is updated.\
+
+\fs36 3. The Leaderboard\
+
+\fs28 \'96\'96The leaderboard contains the history of the users games that they won. It can be sorted by fastest time completed or least number of moves. The history can be cleared at any point. Only the top 10 for each section is displayed. The local storage feature of web browsers was used to load past history.\
+\
+}

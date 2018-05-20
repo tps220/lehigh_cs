@@ -23,8 +23,7 @@ public:
         ListNode* chain_begin = NULL;
         ListNode* head = list;
         ListNode* target = list -> next;
-        for (int i = 0; i < size_of_list; i += k) {
-            
+        for (int i = 0; i < size_of_list; i += k) {            
             ListNode* previous = head;
             target = head -> next;
             for (int j = 1; j < k; j++) {
