@@ -1,0 +1,106 @@
+#container {
+  min-width: 800px;
+  text-align: center;
+  margin: auto;
+  width: 100%;
+}
+
+#game-title {
+  font-family: sans-serif;
+  font-size: 48px;
+  text-align: center;
+  border-bottom: 4px solid black;
+  margin-top: -3px;
+}
+
+#login-header {
+  font-family: sans-serif;
+  font-size: 36px;
+  text-align: center;
+}
+#username-header {
+  font-family: sans-serif;
+  font-size: 24px;
+  text-align: center;
+}
+#username-submit {
+  font-size: 24px;
+  height: 50px;
+  margin-top: 5px;
+  width: 100px;
+}
+#username-input {
+  font-size: 18px;
+  width: 200px;
+  text-align: center;
+}
+#game-container {
+    width: 60%;
+    float: left;
+    border: none;
+    margin-top: -32px;
+}
+#game-board {
+  text-align: center;
+  border: 2px solid black;
+  margin: auto;
+}
+.game-board-title {
+  font-size: 48px;
+  color: white;
+  font-family: sans-serif;
+  background-color: black;
+  margin-top: -1px;
+}
+#game-board-title-info {
+  font-size: 28px;
+  font-family: sans-serif;
+  margin-top: -18px;
+}
+.letters {
+  cursor: pointer;
+  font-family: sans-serif;
+}
+.letters:hover {
+  color: white;
+  background-color: #6F9FD8;
+}
+#leaderboard-container {
+  float: left;
+  width: 40%;
+  border: none;
+  margin-top: -32px;
+  height: 500px;
+}
+#submit-word {
+  margin-top: 5px;
+  font-size: 28px;
+  height: 40px;
+  width: 200px;
+}
+#score-table {
+  margin: auto;
+  margin-top: -24px;
+}
+
+#row-header-1 {
+  width: 200px;
+  font-size: 28px;
+  font-family: sans-serif;
+  border-bottom: solid black 2px;
+}
+#row-header-2 {
+  width: 40px;
+  font-size: 28px;
+  font-family: sans-serif;
+  border-bottom: solid black 2px;
+}
+.player-winner {
+  background-color: yellow;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+.player-data {
+  font-size: 16px;
+  font-family: sans-serif;
+}
