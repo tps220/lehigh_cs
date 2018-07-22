@@ -1,4 +1,0 @@
-Big O
-1. Recursive Runtimes
-2. If we have two input arrays, we split up runtime into O(a*b)
-3. 
